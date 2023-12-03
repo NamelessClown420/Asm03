@@ -1,0 +1,298 @@
+@media only screen and (max-width:768px){
+    #banner > img:first-of-type{
+      display: none;
+    }
+    #banner >div> h1 {
+      color: white;
+    }
+    #banner >div> span {
+      display: block;
+      font-size: small;
+      color: white;
+    }
+    #nav-bar {
+      justify-content: start;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    #nav-bar > a {
+      padding: 20px 20px 0;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+    #nav-bar i {
+      font-size: 20px;
+      color: #279fdc;
+    }
+    #nav-bar > div {
+      display: none;
+    }
+    #about {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      width: 100%;
+      padding: 0;
+    }
+    #about h1 {
+      padding-bottom: 30px;
+      text-align: center;
+      font-size: 45px;
+      font-weight: lighter;
+    }
+    #target {
+      line-break: loose;
+      padding: 30px;
+    }
+    #target > p {
+      color: #bdbec2;
+      font-weight: lighter;
+      font-size: 20px;
+    }
+    #personal-info-1 {
+      background-color: #f0f0f0;
+    }
+    #personal-info {
+      padding: 30px;
+      padding-bottom: 50px;
+    }
+    
+    #mt-40-info {
+      padding-left: 0;
+      padding-bottom: 30px;
+    }
+    #mt-40-info > li {
+      list-style: none;
+      color: #bdbec2;
+      font-size: 20px;
+    }
+    #personal-info  i {
+      color: #199edd;
+      font-size: 20px;
+    }
+    #mt-40-info > li > span {
+      font-weight: bolder;
+      color: black;
+      font-size: 20px;
+    }
+    #first{
+      order: 1;
+    }
+    #second{
+      order: 2;
+    }
+    #third{
+      order: 3;
+    }
+    #forth{
+      order: 4;
+    }
+    #fifth{
+      order: 5;
+    }
+    #sixth{
+      order: 6;
+    }
+    #job-info-1 {
+      row-gap: 30px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 40px;
+    }
+    #job-info-1 > div {
+      border-style: solid;
+      border-color: #ececec;
+      border-width: 2px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 112px 60px 1fr;
+      margin-top: 20px;
+    }
+    #job-info-1 > div > h1 {
+      font-size: xx-large;
+      font-weight: lighter;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    #job-info-1 > div > i {
+      font-size: 50px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    #job-info-1 > div:first-child > div > i > i {
+      background-color: #017cff;
+      border-radius: 5px;
+      color: white;
+    }
+    #job-info-1 div div {
+      grid-column: 1/3;
+      margin-bottom: 30px;
+    }
+    #job-info-1 div div i {
+      font-size: 25px;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+    #job-info-1 div div p {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    #hobby-1 {
+      justify-content: center;
+      gap: 25px;
+      display: flex;
+    }
+    #hobby-1 > div > div {
+      flex-grow: 1;
+      display: flex;
+      width: 35px;
+      height: 35px;
+      justify-content: center;
+      border-radius: 50%;
+      border: solid;
+      border-color: #2ea5de;
+      border-width: 2px;
+      padding: 10px;
+
+    }
+    #hobby-1 > div > div > i {
+      font-size: 25px;
+      color: #2ea5de;
+    }
+    #hobby-1 p {
+      font-size: 20px !important;
+      line-height: normal !important;
+      text-align: center;
+    }
+    .blue::after{
+    content: "";
+    background: #199cdb;
+    display: inline-block;
+    border-radius: 5px;
+    height: 5px;
+    margin-right: 10px;
+    width: 45px;
+    }
+    .grey::after{
+      content: "";
+      background: gray;
+      display: inline-block;
+      border-radius: 5px;
+      height: 5px;
+      margin-right: 10px;
+      width: 45px;
+      }
+      #certificate-1{
+        grid-template-columns: 1fr;
+      }
+      #certificate-1>div{
+        border-bottom: solid;
+        border-color:  #d6c08d;
+        border-width: 2px;
+        padding: 40px 0 40px;
+        flex-direction: column;
+      }
+      #certificate-1>div:nth-child(3){
+        border: none;
+      }
+      #certificate-1>div>div{
+        flex-direction: column;
+        align-items: top;
+      }
+      #certificate-1 img{
+        width: 100%;
+      }
+      #certificate-1 p{
+        font-size: 20px;
+
+      }
+    #certificate-1 h5{
+      padding-bottom: 20px;
+      font-size: 24px;
+      font-weight: 550;
+      }
+    #project{
+      padding-bottom: 60px;
+      justify-content: center;
+      grid-template-columns: 1fr;
+      row-gap: 40px;
+    }
+    #project>div>img{
+      width: 100%;
+    }
+    #project>div{
+      flex-direction: column;
+    }
+    #project h3{
+      padding-left: 20px;
+    }
+    #project>div>div:nth-of-type(2){
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      height: fit-content;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+    #project span{
+      padding-left: 20px;
+    }
+    #project span:first-of-type{
+      display: inline-block;
+      margin: 10px;
+      margin-left: 20px ;
+      padding: 0 10px 0;
+      width: fit-content;
+      font: 15px;
+      color: white;
+      border-radius: 20px;
+      background-color: #017cff;
+    }
+    #project>div>div{
+      height: 50px;
+      border: solid;
+      border-color: #ececec;
+      border-width: 2px;
+    }
+    #project>div>div:first-of-type{
+      padding-top: 20px;
+      border-bottom: none;
+    }
+    table, td{
+      border: solid;
+      border-color: #ececec;
+      border-width: 2px;
+      border-top: none;
+      border-collapse: collapse;
+    }
+    td{
+      vertical-align: top;
+      border-left: none;
+      border-right: none;
+      padding: 10px 15px 10px;
+      font-size: 20px;
+    }
+    #footer ul{
+      justify-content: center;
+      list-style: none;
+      gap: 40px;
+      padding-left: 0;
+    }
+    #footer i{
+      color: #34a7de;
+      font-size: 50px;
+    }
+    #footer li{
+      display: none;
+    }
+    #footer ul>div{
+      align-items: center;
+    }
+}

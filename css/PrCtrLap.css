@@ -1,0 +1,110 @@
+@media only screen and (min-width: 992px) {
+*{
+    line-height: 150%;
+  }
+  .container-grid{
+    display: grid;
+  }
+  .container-flex{
+    display: flex;
+  }
+  #projectCharter{
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    border: solid;
+    border-width: 20px;
+    border-color: #0910ff;
+  }
+  #projectCharter>div{
+    border: solid;
+    border-width: 10px;
+    border-color: #0910ff;
+    background-color: #f0f8ff;
+  }
+  .charterInfoCtn{
+    padding: 20px;
+  }
+  .charterHeader{
+    padding: 10px 0 10px;
+    color: #0910ff;
+    border-bottom: solid;
+    border-color: #d1dfdf ;
+    border-width: 2px;
+    margin-bottom: 10px;
+  }
+  .charterGoals{
+    border-bottom: solid;
+    border-color: #e2edf0 ;
+    border-width: 1px;
+    grid-template-columns: 120px 1fr;
+    padding: 10px 10% 10px 0;
+  }
+  .charterGoals>i{
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #scopesInner{
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    padding: 0 20px 0;
+  }
+  .charterScopes>h1{
+    padding-bottom: 20px;
+  }
+  .charterScopes>p{
+    padding-bottom: 10px;
+    padding-right: 20%;
+  }
+  
+  #charterTeam>div{
+    flex-direction: column;
+  }
+  .charterTeamInner{
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 20px;
+  }
+  .charterTeamInner>i{
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  #primaryContent{
+    flex-direction: column;
+  }
+  #primaryContent p{
+    padding-right: 10%;
+  }
+  #timeline{
+    grid-row: 1/3 ;
+  }
+  .charterInfoCtn>div{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .timelineInner{
+    grid-auto-flow: column;
+    grid-template-columns: 60px 1fr;
+  }
+  
+  .timelineInner>h1{
+    text-align: center;
+    border-radius: 50%;
+    background-color: #9e88ff;
+    color: white;
+    border: solid;
+    border-color: #736e87;
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+  }
+  .timelineInner>div{
+    border-bottom: dashed;
+    border-color: #bee5ec;
+    border-width: 2px;
+  }
+  .timelineInner>div>*{
+    padding-left: 20px;
+  }
+}
