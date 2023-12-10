@@ -2,7 +2,9 @@
   #banner > img:last-of-type {
     display: none;
   }
-
+section>.container{
+  width: 1170px;
+}
   #banner > div > h1 {
     color: white;
   }
